@@ -1,6 +1,6 @@
 # npmdoc-clocker
 
-#### api documentation for  [clocker (v1.11.3)](https://github.com/substack/clocker)  [![npm package](https://img.shields.io/npm/v/npmdoc-clocker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clocker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clocker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clocker)
+#### basic api documentation for  [clocker (v1.11.3)](https://github.com/substack/clocker)  [![npm package](https://img.shields.io/npm/v/npmdoc-clocker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-clocker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-clocker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-clocker)
 
 #### track project hours
 
@@ -21,11 +21,15 @@
 ```json
 
 {
-    "name": "clocker",
-    "version": "1.11.3",
-    "description": "track project hours",
+    "author": {
+        "name": "James Halliday",
+        "url": "http://substack.net"
+    },
     "bin": {
         "clocker": "bin/cmd.js"
+    },
+    "bugs": {
+        "url": "https://github.com/substack/clocker/issues"
     },
     "dependencies": {
         "editor": "^0.1.0",
@@ -37,16 +41,16 @@
         "strftime": "~0.6.2",
         "through": "^2.3.7"
     },
+    "description": "track project hours",
     "devDependencies": {
         "tape": "~2.3.2"
     },
-    "scripts": {
-        "test": "tape test/*.js"
+    "directories": {},
+    "dist": {
+        "shasum": "f89bcc442c256a7bb7b134a15f0b1492b38d95b3",
+        "tarball": "https://registry.npmjs.org/clocker/-/clocker-1.11.3.tgz"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/substack/clocker.git"
-    },
+    "gitHead": "a21151de2769bc7c61bcd30723945f4b86e91618",
     "homepage": "https://github.com/substack/clocker",
     "keywords": [
         "consulting",
@@ -55,11 +59,28 @@
         "tracking",
         "invoice"
     ],
-    "author": {
-        "name": "James Halliday",
-        "url": "http://substack.net"
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "substack"
+        },
+        {
+            "name": "mmalecki"
+        },
+        {
+            "name": "fnogatz"
+        }
+    ],
+    "name": "clocker",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/clocker.git"
     },
-    "license": "MIT"
+    "scripts": {
+        "test": "tape test/*.js"
+    },
+    "version": "1.11.3"
 }
 ```
 
